@@ -86,4 +86,4 @@ For detailed LED status information, see the [LED Status Guide](./LED_Status_Gui
 
 ## Technical Support
 
-For additional support, please contact FYSETC or visit the official documentation.
+For additional support, please contact Toaiot or visit the official documentation.
