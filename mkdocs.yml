@@ -1,0 +1,227 @@
+# Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Project information
+site_name: Toaiot WIKI
+site_url: http://wiki.toaiot.cc
+site_author: Toaiot Team
+site_description: >-
+  Toaiot BMCU product documentation 
+
+# Repository
+repo_name: Toaiot Products
+repo_url: https://github.com/toaiot
+edit_uri: "edit/main/docs"
+
+# Copyright
+copyright: Copyright &copy; 2014 - 2024 Toaiot Co, Ltd
+
+# Configuration
+theme:
+  locale: en
+  name: material
+  #custom_dir: material/.overrides
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features: 
+    #- tabs
+    - instant
+    - header.autohide
+    - navigation.top
+    - navigation.path
+    #- content.tabs.link
+    - content.code.copy
+    #- toc.integrate
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.tooltips
+    #- navigation.expand
+    #- navigation.footer
+    #- navigation.instant
+    #- navigation.prune
+    #- navigation.sections
+    #- navigation.tabs
+    #- navigation.tabs.sticky
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    #- toc.integrate
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+         icon: material/brightness-7
+         name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+         icon: material/brightness-4
+         name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: 
+  favicon: assets/favicon.ico
+
+# Plugins
+#      default_language: !ENV [DEFAULT_LANGUAGE, "en"]
+#      default_language_only: !ENV [DEFAULT_LANGUAGE_ONLY, false]
+plugins:
+  - search
+  - i18n:
+      reconfigure_material: true
+      fallback_to_default: true
+      docs_structure: suffix
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: true
+          site_name: Toaiot WIKI
+        - locale: zh
+          name: 简体中文
+          build: true  
+          site_name: Toaiot 产品文档
+          nav_translations:
+            Home: 主页
+            Products: 产品
+            BMCU 27-5: BMCU 27-5 双向缓冲模块
+            BMCU 370C: BMCU 370C 霍尔传感器
+            Guides: 指南
+            LED Status Guide: LED 状态指南
+            BMCU 370C Installation Guide: BMCU 370C 安装指南
+            BMCU Burning Tutorial(UART): BMCU 刷写教程(UART)
+            Downloads: 下载
+            Firmware List: 固件列表
+            Base Bracket STL: 底座支架STL
+            
+  - minify:
+      minify_html: true
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: 'https://github.com/toaiot'
+    # - icon: fontawesome/brands/facebook
+    #   link: 'https://www.facebook.com/groups/197476557529090/'
+    # - icon: fontawesome/brands/google-plus
+    #   link: 'https://plus.google.com/communities/102413556437521044568'
+#  alternate:
+#    - name: English
+#      link: /en/ 
+#      lang: en
+#    - name: 简体中文
+#      link: /cn/
+#      lang: zh
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+#      slugify: !!python/name:pymdownx.slugs.uslugify
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.highlight:
+      linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+ #     alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.arithmatex:
+      generic: true
+
+# Page tree
+nav:
+- Home: index.md
+
+- Products:
+    - BMCU 27-5: BMCU_27-5.md
+    - BMCU 370C: BMCU_370C.md
+
+- Guides:
+    - LED Status Guide: LED_Status_Guide.md
+    - BMCU 370C Installation Guide: BMCU_370C_Installation_Guide.md
+    - BMCU Burning Tutorial(UART): BMCU_Burning_Tutorial(UART).md
+
+- Downloads:
+    - Firmware List: Firmware_List.md
+    - Base Bracket STL: Base_Bracket_Print.md
+
+# extra_css:
+  # - 'stylesheets/extra.css'
+
+
+extra_javascript:
+   - javascripts/mathjax.js
+   - https://polyfill.io/v3/polyfill.min.js?features=es6
+   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+     # - 'javascripts/extra.js'
+     # - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  
+# google_analytics
+google_analytics:
+    - 'UA-123694709-1'
+    - 'auto'   
+
+
+
