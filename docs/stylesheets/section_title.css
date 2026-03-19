@@ -1,0 +1,7 @@
+/* 自定义分组小标题样式 */
+.md-nav__item--section>.md-nav__link {
+  font-size: 12px;
+  border-bottom: 1px solid #e3e1e1;
+  padding-bottom: 5px;
+  /* text-transform: uppercase; */
+}

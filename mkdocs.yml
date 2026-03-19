@@ -55,6 +55,8 @@ theme:
     - header.autohide
     - navigation.top
     - navigation.path
+    - navigation.sections
+    # - navigation.expand
     #- content.tabs.link
     - content.code.copy
     #- toc.integrate
@@ -193,22 +195,45 @@ markdown_extensions:
 # Page tree
 nav:
 - Home: index.md
+- What's BMCU: index1.md
+- For develops: index2.md
+- BMCU in P series: 2.md
+- Before building:
+  - BMCU Version:
+      - BMCU 27-5: 3.md
+      - BMCU 370C: 4.md
+  - Bill of materials:
+      - BMCU 27-5: 5.md
+      - BMCU 370C: 6.md
+- While building:
+  - Tutorial center:
+      - LED Status Guide: LED_Status_Guide.md
+      - BMCU 370C Installation Guide: BMCU_370C_Installation_Guide.md
+      - BMCU Burning Tutorial(UART): BMCU_Burning_Tutorial(UART).md
+  - Download Center:
+      - Firmware List: Firmware_List.md
+      - Base Bracket STL: Base_Bracket_Print.md
+  - Testing:
+      - BMCU 27-5: 7.md
+      - BMCU 370C: 8.md
+- After building:
+  - Start using BMCU:
+      - BMCU 27-5: 9.md
+      - BMCU 370C: 10.md
+  - Troubleshooting/FAQ:
+      - BMCU 27-5: 11.md
+      - BMCU 370C: 12.md
+# - LED Status Guide: LED_Status_Guide.md
+# - BMCU Burning Tutorial(UART): BMCU_Burning_Tutorial(UART).md
+# - Guides:
+#     - LED Status Guide: LED_Status_Guide.md
+#     - BMCU 370C Installation Guide: BMCU_370C_Installation_Guide.md
+#     - BMCU Burning Tutorial(UART): BMCU_Burning_Tutorial(UART).md
 
-- Products:
-    - BMCU 27-5: BMCU_27-5.md
-    - BMCU 370C: BMCU_370C.md
 
-- Guides:
-    - LED Status Guide: LED_Status_Guide.md
-    - BMCU 370C Installation Guide: BMCU_370C_Installation_Guide.md
-    - BMCU Burning Tutorial(UART): BMCU_Burning_Tutorial(UART).md
-
-- Downloads:
-    - Firmware List: Firmware_List.md
-    - Base Bracket STL: Base_Bracket_Print.md
-
-# extra_css:
+extra_css:
   # - 'stylesheets/extra.css'
+  - 'stylesheets/section_title.css'
 
 
 extra_javascript:
