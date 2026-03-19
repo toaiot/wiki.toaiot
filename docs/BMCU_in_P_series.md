@@ -1,7 +1,8 @@
-# BMCU Burning Tutorial(UART)
+# BMCU in P series
 
-!!! warning
-Prior to programming, ensure that.All solder joints are properly finished,No power supply short circuits exist
+
+!!! warning 
+    Prior to programming, ensure that.All solder joints are properly finished,No power supply short circuits exist
 
 ## Important Notes Before Flashing
 
