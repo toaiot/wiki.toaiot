@@ -95,7 +95,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   icon:
-    logo: 
+  logo: assets/logo.png
   favicon: assets/favicon.ico
 
 # Plugins
@@ -194,10 +194,9 @@ markdown_extensions:
 
 # Page tree
 nav:
-- Home: index.md
-- What's BMCU: index1.md
-- For develops: index2.md
-- BMCU in P series: 2.md
+- What's BMCU: index.md
+- For developers: for_developers.md
+- BMCU in P series: BMCU_in_P_series.md
 - Before building:
   - BMCU Version:
       - BMCU 27-5: 3.md
