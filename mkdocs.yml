@@ -212,9 +212,9 @@ nav:
   - ORDER Set B: ORDER_Build_Set_B.md
   - ORDER Set C: ORDER_Build_Set_C.md
   - ORDER Set D: ORDER_Build_Set_D.md
-- After building:
-  - Start using BMCU: Start_using_BMCU.md
-  - Troubleshooting/FAQ: Troubleshooting_FAQ.md
+# - After building:
+#   - Start using BMCU: Start_using_BMCU.md
+#   - Troubleshooting/FAQ: Troubleshooting_FAQ.md
 - Tutorial:
   - LED Status Guide: LED_Status_Guide.md
   - BMCU Burning Tutorial(UART): BMCU_Burning_Tutorial(UART).md

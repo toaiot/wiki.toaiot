@@ -30,7 +30,7 @@
 
 Connect the BMCU mainboard and USB-UART tool according to the following wiring:
 
-!\[step1]\(./assets/buring\_tutorial/step1.png null)
+![step1](./assets/buring_tutorial/step1.png)
 
 ### **Step 2**: Install Driver
 
@@ -39,14 +39,14 @@ Connect the BMCU mainboard and USB-UART tool according to the following wiring:
 3. Note your specific COM port number (may differ from examples)
 4. Use the actual port assigned to your device
 
-!\[step2]\(./assets/buring\_tutorial/step2.png null)
+![step2](./assets/buring_tutorial/step2.png)
 
 ### **Step 3**: Enter Programming Mode
 
 1. **Press and hold** the **B button** with your left hand (do not release)
 2. **Press** the **R button** once with your right hand and release
 3. **Keep holding** the B button (it's best not to release it)
-   !\[step3]\(./assets/buring\_tutorial/step3.png null)
+   ![step3](./assets/buring_tutorial/step3.png)
 
 ### **Step 4**: Configure WCHISPTool
 
@@ -55,7 +55,7 @@ Connect the BMCU mainboard and USB-UART tool according to the following wiring:
 3. Check the download configuration
 4. Wait for the message: **"(Read/write protection unlocked successfully!)"**
 
-!\[step4]\(./assets/buring\_tutorial/step4.png null)
+![step4](./assets/buring_tutorial/step4.png)
 
 ### **Step 5**: Flash Firmware
 
@@ -68,7 +68,7 @@ Connect the BMCU mainboard and USB-UART tool according to the following wiring:
 - Check Dupont wire connections
 - **Note**: The "Contact Protection" button must be clicked for each download attempt
 
-!\[step5]\(./assets/buring\_tutorial/step5.png null)
+![step5](./assets/buring_tutorial/step5.png)
 
 ### **Step 6**: Verify Success
 
