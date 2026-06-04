@@ -1,4 +1,4 @@
-# Download BMCU-Flasher and BambuStudio-BMCU.
+## Download BMCU-Flasher and BambuStudio-BMCU.
 
 Download BMCU-Flasher here: [BMCU-Flasher](https://github.com/jarczakpawel/BMCU-Flasher/releases/tag/v1.3)
 
