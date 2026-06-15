@@ -134,7 +134,8 @@ plugins:
             LED Status Guide: LED 状态指南
             BMCU Burning Tutorial(UART): BMCU 刷写教程(UART)
             Firmware List: 固件列表
-            
+            BMCU Debug and Usage Guide: BMCU 调试和使用指南
+            BMCU Assembly Issues: BMCU装配问题
   - minify:
       minify_html: true
 
@@ -220,7 +221,7 @@ nav:
   - LED Status Guide: LED_Status_Guide.md
   - BMCU Burning Tutorial(UART): BMCU_Burning_Tutorial(UART).md
   - Firmware List: Firmware_List.md
-
+  - BMCU Assembly Issues: BMCU_Assembly_Issues.md
 extra_css:
   # - 'stylesheets/extra.css'
   - 'stylesheets/section_title.css'
