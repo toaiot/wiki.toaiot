@@ -2,7 +2,7 @@
 
 # BMCU 370C V2.0
 **⚠️ This tutorial only applies to versions with a Type-C interface**
-!\[1787910661634]\((https://github.com/toaiot/wiki.toaiot/blob/main/docs/assets/buring_tutorial/1787910661634.png?raw=true))
+!\[1787910661634.png]\(docs/assets/buring_tutorial/1787910661634.png?raw=true)
 
 ## Prerequisites
 
