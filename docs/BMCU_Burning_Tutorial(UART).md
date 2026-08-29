@@ -55,7 +55,7 @@ Connect the BMCU mainboard and Computer according to the following wiring:
    
    ![1787912271989.png](assets/buring_tutorial/1787912271989.png?raw=true)
 
-   5.2 You need to install the **TP-ISPTool driver** - [Download](https://github.com/toaiot/wiki.toaiot/blob/main/docs/assets/buring_tutorial/dll.EXE) )
+   5.2 You need to install the **TP-ISPTool driver** - [Download](https://github.com/toaiot/wiki.toaiot/blob/main/docs/assets/buring_tutorial/dll.zip)
    
    ![1787912271990.png](assets/buring_tutorial/1787912271990.png?raw=true)
    
