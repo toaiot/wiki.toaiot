@@ -2,7 +2,7 @@
 
 # BMCU 370C V2.0
 **⚠️ This tutorial only applies to versions with a Type-C interface**
-!\[1787910661634]\(./assets/buring_tutorial/1787910661634.png)
+!\[1787910661634]\((https://github.com/toaiot/wiki.toaiot/blob/main/docs/assets/buring_tutorial/1787910661634.png?raw=true))
 
 ## Prerequisites
 
@@ -17,7 +17,7 @@
 **⚠️ IMPORTANT: Ensure BMCU is NOT connected to the printer!** 
 
 Connect the BMCU mainboard and Computer according to the following wiring:
-!\[1787911652753]\(./assets/buring_tutorial/1787911652753.png)
+!\[1787911652753]\((https://github.com/toaiot/wiki.toaiot/blob/main/docs/assets/buring_tutorial/1787911652753.png?raw=true))
 
 ### **Step 2**: Install Driver 
 
