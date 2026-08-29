@@ -2,7 +2,7 @@
 
 # BMCU 370C V2.0
 **⚠️ This tutorial only applies to versions with a Type-C interface**
-!\[1787910661634]\(./assets/buring_tutorial/1787910661634.png)
+![1787910661634.png](assets/buring_tutorial/1787910661634.png?raw=true)
 
 ## Prerequisites
 
@@ -17,39 +17,53 @@
 **⚠️ IMPORTANT: Ensure BMCU is NOT connected to the printer!** 
 
 Connect the BMCU mainboard and Computer according to the following wiring:
-!\[1787911652753]\(./assets/buring_tutorial/1787911652753.png)
+
+![1787911652753.png](assets/buring_tutorial/1787911652753.png?raw=true)
 
 ### **Step 2**: Install Driver 
 
-1. Install the **BMCU Flasher** program and open it
-!\[1787912271982]\(./assets/buring_tutorial/1787912271982.png)
-!\[1787912271983]\(./assets/buring_tutorial/1787912271983.png)
+1. Install the **BMCU Flasher** program and open it;
 
-2. Click **ONative USB (manual BOOT+RESET)**, and the system should automatically detect the serial port
-!\[1787912271984]\(./assets/buring_tutorial/1787912271984.png)
+![1787912271982.png](assets/buring_tutorial/1787912271982.png?raw=true)
+
+![1787912271983.png](assets/buring_tutorial/1787912271983.png?raw=true)
 
 
-3. Click **Online**, keep the default selection in the pop-up window, and then click **Select**
-!\[1787912271985]\(./assets/buring_tutorial/1787912271985.png)
-!\[1787912271986]\(./assets/buring_tutorial/1787912271986.png)
+2. Click **ONative USB (manual BOOT+RESET)**, and the system should automatically detect the serial port;
 
-4. Click **Flash** and wait for the flashing process to complete
-!\[1787912271987]\(./assets/buring_tutorial/1787912271987.png)
+![1787912271984.png](assets/buring_tutorial/1787912271984.png?raw=true)
+
+
+3. Click **Online**, keep the default selection in the pop-up window, and then click **Select**;
+
+![1787912271985.png](assets/buring_tutorial/1787912271985.png?raw=true)
+
+![1787912271986.png](assets/buring_tutorial/1787912271986.png?raw=true)
+
+
+4. Click **Flash** and wait for the flashing process to complete;
+
+![1787912271987.png](assets/buring_tutorial/1787912271987.png?raw=true)
 
 5. Flashing complete
-**⚠️ After flashing, plug the BMCU into the printer; the BMCU will automatically perform a channel calibration that takes about 4 minutes** 
-!\[1787912271988]\(./assets/buring_tutorial/1787912271988.png)
 
-   5.1 If the following message appears when clicking Flash: **identify failed (native usb).enter bootloader first. last=native usb: no WCH ISP USB device (4348:55E0).enter bootloader first (hold BOOT + tap RESET), and check driver: windows = WCH CH375 driver (CH375DLL64.dll) or WinUsB via Zadig, Linux = udev rules + libusb**
-   !\[1787912271989]\(./assets/buring_tutorial/1787912271989.png)
+**⚠️ After flashing, plug the BMCU into the printer; the BMCU will automatically perform a channel calibration that takes about 4 minutes** ;
+
+![1787912271988.png](assets/buring_tutorial/1787912271988.png?raw=true)
+
+   5.1 If the following message appears when clicking Flash: **identify failed (native usb).enter bootloader first. last=native usb: no WCH ISP USB device (4348:55E0).enter bootloader first (hold BOOT + tap RESET), and check driver: windows = WCH CH375 driver (CH375DLL64.dll) or WinUsB via Zadig, Linux = udev rules + libusb**;
+   
+   ![1787912271989.png](assets/buring_tutorial/1787912271989.png?raw=true)
 
    5.2 You need to install the **TP-ISPTool driver** - [Download](https://github.com/toaiot/BMCU-Flasher/releases/tag/v1.3-toaiot-native-usb) )
-   !\[1787912271990]\(./assets/buring_tutorial/1787912271990.png)
-   !\[1787912271991]\(./assets/buring_tutorial/1787912271991.png)
+   
+   ![1787912271990.png](assets/buring_tutorial/1787912271990.png?raw=true)
+   
+   ![1787912271991.png](assets/buring_tutorial/1787912271991.png?raw=true)
 
    5.3 Close the **BMCU Flasher** program and reopen it, unplug and replug the connection cable between the BMCU and the computer, then repeat the flashing steps above;
-   !\[1787912271988]\(./assets/buring_tutorial/1787912271988.png)
-
+   
+   ![1787912271988.png](assets/buring_tutorial/1787912271988.png?raw=true)
 
 
 # BMCU 370C V1.0
